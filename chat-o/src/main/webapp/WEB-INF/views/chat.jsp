@@ -32,71 +32,6 @@ a{
   color: rgba(82,179,217,0.9);
 }
 
-/* M E N U */
-
-.menu {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 100%;
-    height: 50px;
-    background: rgba(82,179,217,0.9);
-    z-index: 100;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-
-.back {
-    position: absolute;
-    width: 90px;
-    height: 50px;
-    top: 0px;
-    left: 0px;
-    color: #fff;
-    line-height: 50px;
-    font-size: 30px;
-    padding-left: 10px;
-    cursor: pointer;
-}
-.back img {
-    position: absolute;
-    top: 5px;
-    left: 30px;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(255,255,255,0.98);
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    margin-left: 15px;
-    }
-.back:active {
-    background: rgba(255,255,255,0.2);
-}
-.name{
-    position: absolute;
-    top: 3px;
-    left: 110px;
-    font-family: 'Lato';
-    font-size: 25px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.98);
-    cursor: default;
-}
-.last{
-    position: absolute;
-    top: 30px;
-    left: 115px;
-    font-family: 'Lato';
-    font-size: 11px;
-    font-weight: 400;
-    color: rgba(255,255,255,0.6);
-    cursor: default;
-}
 
 /* M E S S A G E S */
 
@@ -177,6 +112,7 @@ a{
 .self {
     justify-content: flex-end;
     align-items: flex-end;
+    background-color: lightyellow;
 }
 .self .msg {
     order: 1;
@@ -208,7 +144,6 @@ a{
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.07);
 }
 .msg p {
-    font-size: 0.8rem;
     margin: 0 0 0.2rem 0;
     color: #777;
 }
@@ -355,11 +290,6 @@ input.textarea {
 <body>
 	<%@ include file="header.jsp"%>
 	<div class="container-fluid">
-	<div class="menu">
-            <div class="back"><i class="fa fa-chevron-left"></i> <img src="http://i.imgur.com/DY6gND0.png" draggable="false"/></div>
-            <div class="name">Alex</div>
-            <div class="last">18:09</div>
-        </div>
     <ol class="chat">
     <li class="other">
         <div class="avatar"><img src="http://i.imgur.com/DY6gND0.png" draggable="false"/></div>
