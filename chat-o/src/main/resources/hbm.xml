@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.sensonic.chat.model.UserModel" table="CHAT_USER_DTL">
+		<id name="emailId" column="EMAIL_ID" type="string" />
+		<property name="firstName" column="FIRST_NAME" type="string" />
+		<property name="lastName" column="LAST_NAME" type="string" />
+		<property name="password" column="PASSWORD" type="string" />
+		<property name="age" column="AGE" type="string" />
+		<property name="gender" column="GENDER" type="string" />
+	</class>
+</hibernate-mapping> 
