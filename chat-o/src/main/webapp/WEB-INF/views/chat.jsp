@@ -295,7 +295,7 @@ input.textarea {
         <div class="avatar"><img src="http://i.imgur.com/DY6gND0.png" draggable="false"/></div>
       <div class="msg">
         <p>Hola!</p>
-        <p>Te vienes a cenar al centro? <emoji class="pizza"/></p>
+        <p>Te vienes a cenar al capuchino? <emoji class="pizza"/></p>
         <time>20:17</time>
       </div>
     </li>
